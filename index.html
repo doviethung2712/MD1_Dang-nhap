@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Nhập Hệ Thống</title>
+</head>
+<body>
+
+<script>
+let a = prompt('Tên Đăng Nhập')
+
+if (a == 'admin'){
+    let b = prompt('Mật Khẩu')
+    if (b == 'themaster'){
+        alert('Welcome')
+    }else if ( b == ""){
+        alert('Canceled')
+    }else {
+        alert('Wrong password')
+    }
+}else if (a == ""){
+    alert('Canceled')
+}else {
+    alert("I don't know you")
+}
+
+</script>
+</body>
+</html>
